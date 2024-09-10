@@ -1,0 +1,11 @@
+function plots = pp_producePlots(trajectories)
+    
+    global nRobots;
+    global pathColors;
+
+    for j=1:nRobots
+        
+    end
+    
+end
+

@@ -1,0 +1,14 @@
+function segment = pp_identifySegments(paths,trajectories)
+    
+    % This function identifies which segment of the path 
+    % A given point belongs to
+    
+    global nRobots;
+
+    for j=1:nRobots
+        for i=1:length(paths{j})
+            
+        end
+    end
+end
+
