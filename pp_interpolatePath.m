@@ -64,7 +64,7 @@ function trajectory = pp_interpolatePath(path,vmax)
 
     trajectory.yddot_tot = ppval(spline_y_ddot, trajectory.t_tot);
 
-    % trajectory = pp_commonTimeSampling(trajectory);
+    trajectory = pp_commonTimeSampling(trajectory);
     
 end
 
